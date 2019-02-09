@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TheNewHEROBRINE\Murder\particle;
+namespace Murder\particle;
 
 use pocketmine\level\particle\GenericParticle;
 use pocketmine\level\particle\Particle;
