@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TheNewHEROBRINE\Murder\entity;
+namespace Murder\entity;
 
 use pocketmine\entity\Human;
 
