@@ -5,7 +5,7 @@ namespace Murder\entity\projectile;
 
 use pocketmine\entity\projectile\Arrow;
 use pocketmine\level\Level;
-use TheNewHEROBRINE\Murder\particle\MobSpellParticle;
+use Murder\particle\MobSpellParticle;
 
 class MurderGunProjectile extends Arrow {
 
