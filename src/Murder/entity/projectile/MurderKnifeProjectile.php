@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TheNewHEROBRINE\Murder\entity\projectile;
+namespace Murder\entity\projectile;
 
 use pocketmine\entity\Entity;
 use pocketmine\entity\projectile\Projectile;
@@ -11,7 +11,7 @@ use pocketmine\math\Vector3;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\network\mcpe\protocol\AddItemEntityPacket;
 use pocketmine\Player;
-use TheNewHEROBRINE\Murder\entity\Corpse;
+use Murder\entity\Corpse;
 
 class MurderKnifeProjectile extends Projectile {
 
