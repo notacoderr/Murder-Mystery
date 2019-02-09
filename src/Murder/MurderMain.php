@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TheNewHEROBRINE\Murder;
+namespace Murder;
 
 use pocketmine\entity\Entity;
 use pocketmine\level\Level;
