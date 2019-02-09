@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TheNewHEROBRINE\Murder;
+namespace Murder;
 
 use pocketmine\entity\Effect;
 use pocketmine\entity\Entity;
@@ -26,8 +26,8 @@ use pocketmine\network\mcpe\protocol\EntityEventPacket;
 use pocketmine\network\mcpe\protocol\LevelSoundEventPacket;
 use pocketmine\network\mcpe\protocol\RemoveEntityPacket;
 use pocketmine\Player;
-use TheNewHEROBRINE\Murder\entity\Corpse;
-use TheNewHEROBRINE\Murder\entity\MurderPlayer;
+use Murder\entity\Corpse;
+use Murder\entity\MurderPlayer;
 
 class MurderListener implements Listener {
 
