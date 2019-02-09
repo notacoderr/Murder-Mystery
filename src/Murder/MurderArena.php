@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TheNewHEROBRINE\Murder;
+namespace Murder;
 
 use pocketmine\event\entity\EntityDamageByChildEntityEvent;
 use pocketmine\item\Item;
@@ -10,8 +10,8 @@ use pocketmine\level\Position;
 use pocketmine\math\Vector3;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat;
-use TheNewHEROBRINE\Murder\entity\MurderPlayer;
-use TheNewHEROBRINE\Murder\entity\projectile\MurderGunProjectile;
+use Murder\entity\MurderPlayer;
+use Murder\entity\projectile\MurderGunProjectile;
 
 class MurderArena {
 
